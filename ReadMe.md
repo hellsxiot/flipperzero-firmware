@@ -33,6 +33,8 @@ To build and flash over USB:
 ./fbt flash_usb_full
 ```
 
+> **Note:** On Linux you may need to add yourself to the `dialout` group and re-login before USB flashing works: `sudo usermod -aG dialout $USER`
+
 ## Differences from upstream
 
 - Additional bugfixes
